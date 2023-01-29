@@ -1,13 +1,44 @@
+button {
+    max-width: 100%;
+    height: auto;
+    padding: 1%;
+}
+
 button:hover {
+    max-width: 100%;
+    height: auto;
     cursor: pointer;
-    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.button-fill-sml {
+    width: 25vw;
+}
+
+.button-fill-med {
+    width: 50vw;
+}
+
+.button-fill-lar {
+    width: 100vw;
+}
+
+.button-modern:hover {
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 .button-modern {
     color: white;
-    padding: 1%;
-    border: none;
-    background-color: rgb(57, 136, 255);
+    border: 3px solid #3988ff;
+    background-color: #3988ff;
 }
 
-.button-wrap {}
+.button-minimal {
+    background-color: transparent;
+    border: 3px solid #3988ff;
+}
+
+.button-minimal:hover {
+    background-color: #3988ff;
+    border: 3px solid #3988ff;
+    color: white;
+}

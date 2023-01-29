@@ -1,0 +1,13 @@
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.button-modern {
+    color: white;
+    padding: 1%;
+    border: none;
+    background-color: rgb(57, 136, 255);
+}
+
+.button-wrap {}

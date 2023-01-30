@@ -3,13 +3,12 @@ import "./Button.css"
 //import "./index.css"
 
 export interface ButtonProps {
-    label: string;
+    label?: string;
     className: string;
     backgroundColor?: string;
     borderColor?: string;
     color?: string;
-    size?: [number, number];
-    theme?: string;
+    iconPath?: string;
 }
 
 const Button = (props: ButtonProps) => {
@@ -23,7 +22,8 @@ const Button = (props: ButtonProps) => {
                 color: props.color
             }}
         >
-            {props.label}
+            {props.iconPath && <img src={`${props.iconPath}`} />}
+            {props.label && props.label}
         </button >
     )
 }

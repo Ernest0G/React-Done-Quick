@@ -1,6 +1,6 @@
 button {
     max-width: 100%;
-    height: auto;
+    max-height: 100%;
     padding: 1%;
 }
 
@@ -11,15 +11,19 @@ button:hover {
 }
 
 .button-fill-sml {
-    width: 25vw;
+    width: 25%;
 }
 
 .button-fill-med {
-    width: 50vw;
+    width: 50%;
 }
 
 .button-fill-lar {
-    width: 100vw;
+    width: 75%;
+}
+
+.button-fill-full {
+    width: 100%;
 }
 
 .button-modern:hover {
@@ -41,4 +45,34 @@ button:hover {
     background-color: #3988ff;
     border: 3px solid #3988ff;
     color: white;
+}
+
+.button-rounded {
+    border-radius: 20%;
+}
+
+.button-circle {
+    border-radius: 100%;
+}
+
+.button-with-icon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 2%;
+}
+
+button img {
+    height: 1.5vh;
+    width: auto;
+}
+
+.button-icon-only {
+    background-color: transparent;
+    border: none;
+}
+
+.button-icon-only:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: none;
 }

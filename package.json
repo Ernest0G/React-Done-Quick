@@ -3,8 +3,8 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/Ernest0G"
   },
-  "version": "1.1.0",
-  "description": "A custom React component Library.",
+  "version": "1.2.0",
+  "description": "A custom React component library created to allow for developers to crete software faster",
   "scripts": {
     "rollup": "rollup -c",
     "storybook": "start-storybook -p 6006",

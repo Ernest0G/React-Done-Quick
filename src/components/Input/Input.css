@@ -1,0 +1,20 @@
+input {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.input-fill-sml {
+    width: 25%;
+}
+
+.input-fill-med {
+    width: 50%;
+}
+
+.input-fill-lar {
+    width: 75%;
+}
+
+.input-fill-full {
+    width: 100%;
+}

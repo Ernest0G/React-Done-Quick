@@ -27,7 +27,8 @@ button:hover {
 }
 
 .button-modern:hover {
-    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+    background-color: #2274f0;
+    border: 3px solid #2274f0;
 }
 
 .button-modern {
@@ -63,7 +64,7 @@ button:hover {
 }
 
 button img {
-    height: 1.5vh;
+    height: 1rem;
     width: auto;
 }
 

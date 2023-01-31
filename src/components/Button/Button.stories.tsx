@@ -46,15 +46,14 @@ export const WithIcon = Template.bind({});
 WithIcon.args = {
     label: "Submit",
     className: 'button-minimal button-with-icon',
-    iconPath: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/How_to_use_icon.svg/1200px-How_to_use_icon.svg.png'
+    iconPath: 'https://cdn0.iconfinder.com/data/icons/basic-glyph/1024/upload-512.png'
 };
 
 export const IconOnly = Template.bind({});
 IconOnly.args = {
     className: 'button-icon-only',
-    iconPath: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/How_to_use_icon.svg/1200px-How_to_use_icon.svg.png'
-};
-
+    iconPath: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8DjRBYoqXZVkAwqiVnexMpaULNFG8W6YNSA&usqp=CAU'
+}
 export const FillSmall = Template.bind({});
 FillSmall.args = {
     label: "Submit",

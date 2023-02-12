@@ -1,14 +1,16 @@
 import React from 'react'
 import "./Button.css"
-//import "./index.css"
+import "../../Index.css"
 
 export interface ButtonProps {
     label?: string;
     className: string;
     backgroundColor?: string;
     borderColor?: string;
-    color?: string;
+    textColor?: string;
     iconPath?: string;
+    fontSize?: string;
+    width?: string;
 }
 
 const Button = (props: ButtonProps) => {
@@ -19,7 +21,9 @@ const Button = (props: ButtonProps) => {
             style={{
                 backgroundColor: props.backgroundColor,
                 borderColor: props.borderColor,
-                color: props.color
+                color: props.textColor,
+                fontSize: props.fontSize,
+                width: props.width
             }}
         >
             {props.iconPath && <img src={`${props.iconPath}`} />}

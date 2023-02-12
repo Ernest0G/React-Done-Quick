@@ -1,20 +1,30 @@
 import React from 'react'
 import "./Input.css"
+import "../../Index.css"
 
 export interface InputProps {
-    label?: string;
+    placeHolder?: string;
     className: string;
     backgroundColor?: string;
-    color?: string;
-    typeText?: boolean;
+    borderColor?: string;
+    textColor?: string;
+    fontSize?: string;
+    width?: string;
 }
 
 const Input = (props: InputProps) => {
     return (
         <>
             <input
-                type={props.typeText === true ? 'text' : 'textarea'}
                 className={props.className}
+                placeholder={props.placeHolder}
+                style={{
+                    backgroundColor: props.backgroundColor,
+                    borderColor: props.borderColor,
+                    color: props.textColor,
+                    fontSize: props.fontSize,
+                    width: props.width
+                }}
             />
         </>
     );

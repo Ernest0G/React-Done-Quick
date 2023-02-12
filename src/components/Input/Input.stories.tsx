@@ -14,36 +14,30 @@ const Template: ComponentStory<typeof Input> = (args) => <Input {...args} />;
 
 export const Minimal = Template.bind({});
 Minimal.args = {
-    label: "Email",
-    className: 'button-minimal',
-};
-
-export const WithLabel = Template.bind({});
-Minimal.args = {
-    label: "Email",
+    placeHolder: "Email",
     className: 'button-minimal',
 };
 
 export const FillSmall = Template.bind({});
 FillSmall.args = {
-    label: "Email",
-    className: 'input-fill-sml',
+    placeHolder: "Email",
+    className: 'fill-sml',
 };
 
 export const FillMedium = Template.bind({});
 FillMedium.args = {
-    label: "Email",
-    className: 'input-fill-med',
+    placeHolder: "Email",
+    className: 'fill-med',
 };
 
 export const FillLarge = Template.bind({});
 FillLarge.args = {
-    label: "Email",
-    className: 'input-fill-lar',
+    placeHolder: "Email",
+    className: 'fill-lar',
 };
 
 export const FillFull = Template.bind({});
 FillFull.args = {
-    label: "Email",
-    className: 'input-fill-full',
+    placeHolder: "Email",
+    className: 'fill-full',
 };
